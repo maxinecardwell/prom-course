@@ -10,7 +10,7 @@ Discord Server: https://discord.gg/mggw8VGzUp
 
 This is the repository for the following Prometheus video courses:
 
-- Prometheus Certified Associate (PCA)
+- Prometheus Certified Associate (PCA) [Link](https://learning.oreilly.com/course/prometheus-certified-associate/9780135556139/)
 - Prometheus Fundamentals [Link](https://learning.oreilly.com/course/prometheus-fundamentals/9780135903803/)
 
 All of the labs can be found within.
