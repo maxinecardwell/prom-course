@@ -30,8 +30,10 @@ if [ "$(id -u)" -ne 0 ]; then echo;echo "Please run as root or with 'sudo'." >&2
 
 printf "\n\033[7;31mTHIS SCRIPT WILL INSTALL THE PROMETHEUS NODE_EXPORTER %s AND RUN IT AS A SERVICE. \033[0m" "$NODE_EXPORTER_VERSION"
 printf '%.0s\n' {1..2}
-read -p "Are you sure you want to proceed? (y,n): " -r response
+#read -p "Are you sure you want to proceed? (y,n): " -r response
 printf '%.0s\n' {1..2}
+response="y"
+
 if [[ $response =~ ^[Yy]$ ]]; then
 start=$SECONDS  
 printf '%.0s\n' {1..2}
