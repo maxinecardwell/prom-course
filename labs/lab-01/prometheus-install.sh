@@ -36,7 +36,9 @@ printf "\n\033[7;31mTHIS SCRIPT WILL INSTALL PROMETHEUS %s TO YOUR LINUX SYSTEM!
 printf '%.0s\n' {1..2}
 #read -p "Are you sure you want to proceed? (y,n): " -r response
 printf '%.0s\n' {1..2}
-#if [[ $response =~ ^[Yy]$ ]]; then
+response="y"
+
+if [[ $response =~ ^[Yy]$ ]]; then
 start=$SECONDS  
 printf '%.0s\n' {1..2}
 
